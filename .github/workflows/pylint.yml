@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Clone le dépôt
-    - uses: actions/checkout@v4
+      uses: actions/checkout@v4
 
     - name: Set up Python
-    - run: sudo apt update; sudo apt install -y python3
+      run: sudo apt update; sudo apt install -y python3
 
     - name: Lit les tweets
-    - run: python main.py
+      run: python main.py
