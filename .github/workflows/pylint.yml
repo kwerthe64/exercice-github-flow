@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name : Clone le dépôt
+    - name: Clone le dépôt
     - uses: actions/checkout@v4
 
     - name: Set up Python
